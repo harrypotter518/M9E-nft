@@ -1,0 +1,1181 @@
+@font-face {
+  font-family: 'KozGoPro-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fonts/KozGoPro-Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fonts/KozGoPro-Heavy.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fonts/FONT.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-ExtraLight';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fonts/KozGoPro-ExtraLight.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fonts/KozGoPro-Medium.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fonts/KozGoPro-Regular.otf') format('truetype');
+}
+
+body,
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #000000;
+}
+
+p {
+  font-size: 15px;
+}
+
+p.intro {
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+
+a {
+  color: #05ffff;
+  font-weight: 400;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #05ffff;
+}
+
+
+/* Header Section */
+
+.navbar {
+  position: absolute;
+  right: 80px;
+  top: 50px;
+}
+
+.social-icons {
+  width: 40px;
+  margin-right: 10px;
+  transition: all 0.5s linear;
+}
+
+.purple:hover,
+.purple:focus,
+.purple.focus,
+.purple:active,
+.purple.active {
+  color: #fff;
+  background-image: none;
+  background-color: #9519a9;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+
+.logo img {
+  width: 13vw;
+}
+
+.registration {
+  padding-top: 80vh;
+}
+
+.mint-script {
+  left: 0;
+  top: 65px;
+  width: 120px;
+  position: absolute;
+}
+
+.btn-custom {
+  position: relative;
+  color: #fff;
+  padding: 13px 45px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.5s linear;
+  border: 1px solid white;
+  font-family: 'Heavy';
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-wallet {
+  color: white;
+  border: 1px solid white;
+  font-family: 'Heavy';
+  font-size: 10px;
+  padding: 13px 20px;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: #fff;
+  background-image: none;
+  background-color: #9519a9;
+}
+
+.btn-wallet:hover,
+.btn-wallet:focus,
+.btn-wallet.focus,
+.btn-wallet:active,
+.btn-wallet.active {
+  color: #fff;
+  background-image: none;
+  background-color: #05ffff;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+}
+
+.intro-back {
+  background-image: url('../img/images/SubZero-Banner-10.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.intro h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.address-purple {
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0;
+  font-weight: 500;
+  transition: all 0.5s linear;
+  border: 1px solid white;
+  font-family: 'Heavy';
+  font-size: 10px;
+  padding: 13px 20px;
+  /* background-color: #9519a9; */
+}
+
+.address-purple:hover,
+.address-purple:focus,
+.address-purple.focus,
+.address-purple:active,
+.address.active {
+  color: #000000;
+  background-image: none;
+  background-color: #9519a9;
+}
+
+/* Features Section */
+#features {
+  padding: 200px 0;
+  background: #000000;
+  color: white;
+}
+
+#features i.fa {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.silhouette {
+  width: 470px;
+}
+
+.nine {
+  width: 400px;
+}
+
+.mini {
+  font-size: 10px;
+  font-family: 'KozGoPro-ExtraLight';
+  letter-spacing: 10px;
+  padding: 100px 0;
+}
+
+.justify {
+  text-align: justify;
+  text-align-last: justify;
+  width: 410px;
+  margin: auto;
+}
+
+.justify2 {
+  text-align: justify;
+  width: 410px;
+  margin: auto;
+}
+
+.nine-collection {
+  letter-spacing: 14px;
+  font-size: 20px;
+  font-family: 'KozGoPro-Regular';
+}
+
+.nine-unique {
+  letter-spacing: 14px;
+  font-size: 24px;
+  font-family: 'KozGoPro-Bold';
+}
+
+.nine-comment {
+  letter-spacing: 11px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'KozGoPro-Regular';
+}
+
+.description {
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.section-content {
+  width: 880px;
+  margin: auto;
+}
+
+.section-content .col-lg-6 {
+  padding-top: 100px;
+}
+
+/* Banner Section */
+#banner {
+  position: relative;
+  background-image: url('../img/images/SubZero-Banner-04.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  height: 100vh;
+}
+
+.daytoner-logo-right {
+  position: absolute;
+  right: 150px;
+  top: 210px;
+}
+
+.daytoner-logo-right img {
+  width: 8vw;
+}
+
+/* Banner2 Section */
+#banner2 {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-image: url('../img/images/SubZero-Banner-02.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 100px;
+}
+
+.logo2 {
+  position: absolute;
+  right: 100px;
+  top: 100px
+}
+
+.logo2 img {
+  width: 14vw;
+}
+
+/* Roadmap Section */
+#roadmap {
+  padding: 100px 0;
+  background: #000000;
+  color: #fff;
+}
+
+#roadmap h1 {
+  font-family: 'heavy';
+}
+
+#roadmap h2 {
+  color: #fff;
+}
+
+.roadmap2022-h {
+  width: 430px;
+  margin: auto;
+}
+
+.roadmap2022-h h1 {
+  margin-bottom: 0;
+}
+
+.roadmap2022-h p {
+  font-family: 'KozGoPro-ExtraLight';
+  letter-spacing: 3px;
+  font-size: 23px;
+  float: right;
+}
+
+.roadmap2022-h span {
+  font-family: 'KozGoPro-Bold';
+}
+
+.roadmap2022-main {
+  position: relative;
+  border-top: 1px solid white;
+  margin-top: 100px;
+  height: 500px;
+}
+
+.roadmap2022-main p {
+  font-family: 'KozGoPro-ExtraLight';
+}
+
+.roadmap2022-main .point-0 {
+  position: absolute;
+}
+
+.roadmap2022-main .point-1 {
+  position: absolute;
+  left: 320px;
+}
+
+.roadmap2022-main .point-2 {
+  position: absolute;
+  right: 315px;
+}
+
+.roadmap2022-main .point-3 {
+  position: absolute;
+  right: 0;
+}
+
+.roadmap2022-main h2 {
+  font-family: 'KozGoPro-ExtraLight' !important;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.roadmap2022-main h3 {
+  font-family: 'KozGoPro-Medium' !important;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.roadmap2022-main h4 {
+  font-family: 'KozGoPro-Medium' !important;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.roadmap2021-main {
+  position: relative;
+  border-top: 1px solid white;
+  margin-top: 100px;
+  height: 200px;
+}
+
+.roadmap2021-main p {
+  font-family: 'KozGoPro-ExtraLight';
+}
+
+.roadmap2021-main .point-1 {
+  position: absolute;
+  left: 50px;
+}
+
+.roadmap2021-main .point-1 p {
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.roadmap2021-main .point-2 {
+  position: absolute;
+  right: 500px;
+}
+
+.roadmap2021-main .point-4 {
+  position: absolute;
+  right: 370px;
+}
+
+.roadmap2021-main .point-2 p,
+.roadmap2021-main .point-4 p {
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.roadmap2021-main .point-5 {
+  position: absolute;
+  right: 30px;
+}
+
+.roadmap2021-main h2 {
+  font-family: 'KozGoPro-ExtraLight' !important;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.roadmap2021-main h3 {
+  font-family: 'KozGoPro-Medium' !important;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.roadmap2021-main h4 {
+  font-family: 'KozGoPro-Medium' !important;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.symbols {
+  margin-top: 20px;
+  width: 80px;
+}
+
+.group1 {
+  margin-top: 40px;
+}
+
+.group2 {
+  margin-top: 15px;
+}
+
+.group3 {
+  margin-top: 50px;
+  letter-spacing: 2px;
+}
+
+.content p {
+  letter-spacing: 2px;
+}
+
+.content {
+  position: relative;
+  text-align: left;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.content span {
+  font-family: 'KozGoPro-ExtraLight';
+  letter-spacing: 2px;
+}
+
+.arrow-icon-mini {
+  position: absolute;
+  width: 18px;
+  left: -10px;
+}
+
+.roadmap-b {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.roadmap-b-left h1 {
+  margin: 0;
+  float: right;
+}
+
+.roadmap-b-right {
+  padding: 12px 0;
+}
+
+.roadmap-b-right p {
+  float: left;
+  font-family: 'KozGoPro-Medium';
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.absolute1 {
+  display: inline-block;
+}
+
+.absolute2 {
+  display: inline-block;
+  padding-left: 80px;
+}
+
+.absolute3 h3 {
+  margin-top: 10px;
+}
+
+.gradiant {
+  background: repeating-linear-gradient(45deg,
+      white,
+      white 10px,
+      #000000 10px,
+      #000000 20px);
+  width: 153px;
+  height: 50px;
+  margin-left: 36px;
+  position: absolute;
+  top: -51px;
+}
+
+/* Footer Section */
+#footer {
+  padding-bottom: 30px;
+  background: #000000;
+  color: white;
+}
+
+#footer h1 {
+  font-family: 'heavy';
+  margin-left: 50px;
+}
+
+.arrow-icon {
+  width: 36px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.data-list {
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+}
+
+.art {
+  background-image: url('../img/images/WechatIMG1709.png');
+  background-size: contain;
+}
+
+.project {
+  background-image: url('../img/images/SubZero-BPost07e.png');
+  background-size: contain;
+}
+
+.development {
+  background-image: url('../img/images/SubZero-BPost07d.png');
+  background-size: contain;
+}
+
+.community {
+  background-image: url('../img/images/SubZero-BPost07f.png');
+  background-size: contain;
+}
+
+.social {
+  margin: 50px 0;
+}
+
+.team {
+  margin-top: 50px;
+}
+
+.footer-title {
+  position: absolute;
+  top: -10px;
+}
+
+#footer a {
+  color: white;
+}
+
+.footer-title span {
+  font-family: 'KozGoPro-Bold';
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.footer-title p {
+  font-family: 'KozGoPro-ExtraLight';
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+/* Sub-Footer Section*/
+#sub-footer {
+  background: #000000;
+  color: white;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+#sub-footer p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  font-family: "KozGoPro-ExtraLight";
+  letter-spacing: 2px;
+}
+
+#sub-footer a:hover {
+  border-bottom: 2px solid #05ffff;
+  color: #05ffff;
+}
+
+.footer-3,
+.footer-4 {
+  display: inline-block;
+}
+
+.footer-4 {
+  margin-left: 40px;
+}
+
+.footer-2 {
+  text-align: center;
+}
+
+.footer-2 a:hover {
+  border-bottom: none !important;
+}
+
+.footer-right a {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: "KozGoPro-ExtraLight";
+  color: white;
+}
+
+.footer-right {
+  float: right;
+}
+
+
+/* Carousel Section */
+#carousel {
+  margin-top: 100px;
+}
+
+.carousel-img {
+  width: 500px;
+  margin: auto;
+}
+
+.images {
+  width: 500px;
+  margin: auto;
+}
+
+.images .col-md-4 {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+.carousel-item {
+  margin-bottom: 100px;
+}
+
+.carousel-indicators .active {
+  width: 30px;
+  height: 3px;
+  color: white;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.hover-bg {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+.image-box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid grey;
+  display: flex;
+}
+
+.image-box h1 {
+  margin: auto;
+  font-family: 'heavy';
+}
+
+.image {
+  margin-top: 16px;
+}
+
+.ss1,
+.ss2,
+.ss3,
+.ss4,
+.ss5,
+.ss6,
+.ss7,
+.ss8,
+.ss9 {
+  background-position-x: 20%;
+  background-size: cover;
+}
+
+.ss1 {
+  background-image: url("../img/images/9-collection/1.jpg");
+}
+
+.ss2 {
+  background-image: url("../img/images/9-collection/2.jpg");
+}
+
+.ss3 {
+  background-image: url("../img/images/9-collection/3.jpg");
+}
+
+.ss4 {
+  background-image: url("../img/images/9-collection/4.jpg");
+}
+
+.ss5 {
+  background-image: url("../img/images/9-collection/5.jpg");
+}
+
+.ss6 {
+  background-image: url("../img/images/9-collection/6.jpg");
+}
+
+.ss7 {
+  background-image: url("../img/images/9-collection/7.jpg");
+}
+
+.ss8 {
+  background-image: url("../img/images/9-collection/8.jpg");
+}
+
+.ss9 {
+  background-image: url("../img/images/9-collection/9.jpg");
+}
+
+/* Images Section */
+.grid-image {
+  margin: auto;
+
+}
+
+.network-err-msg {
+  position: fixed;
+  z-index: 9999;
+  background-color: red;
+  width: 100%;
+  text-align: center;
+}
+
+.network-err-msg h1 {
+  color: white;
+  font-family: 'heavy';
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 1200px) {
+  #footer h1 {
+    margin-left: 30px;
+  }
+
+  .roadmap2021-main .point-2 {
+    right: 380px;
+  }
+
+  .roadmap2021-main .point-4 {
+    right: 300px;
+  }
+
+  .roadmap2022-main .point-1 {
+    left: 190px;
+  }
+  .roadmap2022-main .point-2 {
+    right: 260px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo img {
+    width: 15vw;
+  }
+
+  .daytoner-logo-right {
+    position: absolute;
+    right: 10vw;
+    top: 40%;
+  }
+
+  .intro-title h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 990px) {
+  .grid-image {
+    width: auto;
+    height: auto;
+  }
+
+  .roadmap2021-main .point-1{
+    left: 0;
+  }
+
+  .roadmap2021-main .point-2 {
+    right: 300px;
+  }
+
+  .roadmap2021-main .point-4 {
+    right: 180px;
+  }
+
+  .roadmap2021-main .point-5 {
+    right: 0;
+  }
+
+  .roadmap2022-main .point-2 {
+    right: 190px;
+  }
+  .roadmap2022-main .point-1 {
+    left: 140px;
+  }
+
+  .section-content {
+    width: 100%;
+  }
+
+  #footer h1 {
+    margin-left: 0;
+  }
+
+  .image {
+    width: 33.33%;
+  }
+
+  .footer-4 {
+    margin-left: 12px;
+  }
+
+  .footer-right {
+    width: 232px;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer h1 {
+    text-align: center;
+  }
+
+  .roadmap-b {
+    width: 100%;
+  }
+
+  .roadmap-b-left h1,
+  .roadmap-b-right p {
+    float: none;
+  }
+
+  .images {
+    width: 300px;
+  }
+
+  .footer-title {
+    text-align: center;
+  }
+
+  .data-list {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  .roadmap2021-main {
+    border-top: none;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .roadmap2021-main .point-1 {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .roadmap2021-main .point-2 {
+    position: relative;
+    margin-top: 50px;
+    left: 0;
+  }
+
+  .roadmap2021-main .point-4 {
+    position: relative;
+    margin-top: 50px;
+    right: 0;
+  }
+
+  .roadmap2021-main .point-5 {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .gradiant {
+    display: none;
+  }
+
+  .roadmap2022 {
+    margin-top: 100px;
+  }
+
+  .roadmap2022-main {
+    border-top: none;
+    height: auto;
+  }
+
+  .roadmap2022-main .point-0 {
+    position: relative;
+  }
+
+  .roadmap2022-main .point-1 {
+    position: relative;
+    margin-top: 50px;
+    left: 0;
+  }
+
+  .point-1 .group1 {
+    width: 271px;
+    margin: 40px auto;
+  }
+  .point-1 .group2 {
+    width: 271px;
+    margin: 40px auto;
+  }
+
+  .roadmap2022-main .point-2 {
+    position: relative;
+    margin-top: 50px;
+    right: 0;
+  }
+
+  .roadmap2022-main .point-3 {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .point-3 .group1 {
+    width: 185px;
+    margin: 20px auto;
+  }
+
+  .point-3 .group2 {
+    width: 185px;
+    margin: 20px auto;
+  }
+
+  .navbar {
+    right: 50px;
+  }
+
+  .logo {
+    left: 50px;
+  }
+
+  .roadmap2022-h {
+    width: 100%;
+  }
+
+  .roadmap2022-h p {
+    float: none;
+  }
+
+  .logo2 {
+    top: 50px;
+    right: 50px;
+  }
+
+  .logo2 img {
+    width: 18vw;
+  }
+
+  .image-box {
+    margin: auto;
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  #sub-footer .col-sm-4 {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .footer-3,
+  .footer-4 {
+    display: block;
+  }
+
+  .footer-right {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .silhouette {
+    width: 70vw;
+  }
+
+  .nine {
+    width: 70vw;
+  }
+
+  .btn-custom {
+    padding: 10px 50px;
+    font-size: 22px;
+  }
+
+  .mint-script {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .justify,
+  .justify2 {
+    width: 100%;
+    text-align-last: auto;
+  }
+
+  .nine-unique,
+  .nine-collection,
+  .nine-comment {
+    text-align: center;
+    letter-spacing: 10px;
+  }
+
+  .social-icons {
+    display: none;
+  }
+
+  .footer-2 .social-icons {
+    display: inherit;
+  }
+
+  .btn-wallet {
+    font-size: 8px;
+    padding: 10px 15px;
+  }
+
+  .navbar {
+    padding-top: 0;
+    min-height: 0;
+  }
+
+  #features {
+    padding: 100px 0
+  }
+
+  .images,
+  .image {
+    width: 100%;
+  }
+
+  .intro-title h1 {
+    font-size: 25px;
+  }
+}

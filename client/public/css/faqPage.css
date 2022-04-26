@@ -1,0 +1,105 @@
+/* Faq Page */
+
+/* Header Section */
+.faq-intro-back {
+    background-image: url('../img/images/M9E-MasterFile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.faq-intro {
+    display: table;
+    width: 100%;
+    height: 73vh;
+    padding: 0;
+}
+
+#faqContent {
+    padding: 100px 0;
+    background: #000000;
+    color: white;
+}
+
+#faqContent h1 {
+    font-family: "heavy";
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+
+/* Content Section */
+
+.faqs {
+    text-align: left;
+	width: 100%;
+	padding: 15px;
+    margin-top: 100px;
+}
+
+.faqs .faq {
+	margin: 15px;
+	padding: 15px;
+	background-color: #000000;
+    border-bottom: 1px solid grey;
+}
+
+.faqs .faq .faq-question {
+	position: relative;
+	font-size: 20px;
+    letter-spacing: 6px;
+    padding-bottom: 30px;
+	padding-right: 80px;
+    font-family: 'KozGoPro-Medium';
+	transition: all 0.5s ease;
+}
+
+.faqs .faq .faq-question::after {
+	content: '';
+	position: absolute;
+	top: 20%;
+	right: 0px;
+	transform: translateY(-50%) rotate(-180deg);;
+    rotate: -50%;
+	width: 30px;
+	height: 30px;
+
+	background-image: url('../img/top-20.svg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+
+.faqs .faq .faq-answer {
+	opacity: 0;
+	max-height: 0;
+	overflow-y: hidden;
+    padding: 20px 0;
+    font-family: 'KozGoPro-Regular';
+	transition: all 0.4s ease-out;
+}
+.faqs .faq .faq-answer p {
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.faqs .faq.open .faq-question {
+	margin-bottom: 10px;
+}
+
+.faqs .faq.open .faq-question::after {
+	transform: translateY(-50%) rotate(0);
+}
+
+.faqs .faq.open .faq-answer {
+	max-height: 1000px;
+	opacity: 1;
+}

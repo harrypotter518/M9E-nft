@@ -1,0 +1,462 @@
+/* Register Page */
+.flex-5 {
+    flex: 5;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+/* Header Section */
+.register-intro-back {
+    background-image: url('../img/images/SubZero-Banner-05.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-title {
+    margin-top: 50vh;
+    text-align: center;
+}
+
+.intro-title h1 {
+    font-family: "heavy";
+    font-size: 55px;
+    letter-spacing: 4px;
+    line-height: 80px;
+}
+
+.blue:hover,
+.blue:focus,
+.blue.focus,
+.blue:active,
+.blue.active {
+    color: #fff;
+    background-image: none;
+    background-color: #05ffff;
+}
+
+/* Verify Section */
+
+.blue-address {
+    color: #05ffff;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 500;
+    transition: all 0.5s linear;
+    border: 1px solid #05ffff;
+    font-family: 'Heavy';
+    font-size: 10px;
+    padding: 13px 20px;
+    background-color: #000000;
+}
+
+.blue-address:hover,
+.blue-address:focus,
+.blue-address.focus,
+.blue-address:active,
+.blue-address.active {
+    color: #000000;
+    background-image: none;
+    background-color: #05ffff;
+}
+
+#verify {
+    padding: 100px 0;
+    color: white;
+}
+
+#verify span {
+    font-family: 'KozGoPro-Bold';
+}
+
+.step1,
+.step2,
+.step3 {
+    margin-bottom: 120px;
+}
+
+.step4 {
+    margin-bottom: 50px;
+}
+
+.verify-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.step-content {
+    text-align: left;
+}
+
+.step-content h4 {
+    font-family: 'KozGoPro-Bold';
+    letter-spacing: 8px;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.step-content p {
+    font-family: 'KozGoPro-ExtraLight';
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.step-content input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 0 20px;
+    flex: 2;
+    font-size: 30px;
+}
+
+.step-button {
+    margin-left: 70px;
+}
+
+.btn-wallet-blue {
+    position: relative;
+    color: #0affff;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 500;
+    transition: all 0.5s linear;
+    border: 1px solid #0affff;
+    font-family: 'Heavy';
+    font-size: 10px;
+    padding: 13px 20px;
+}
+
+#verify .btn:hover,
+.btn:focus,
+.btn.focus,
+.btn:active,
+.btn.active {
+    color: #fff;
+    background-image: none;
+    background-color: #05ffff;
+}
+
+.step-button .symbol {
+    margin: 30px 0;
+    color: #0affff;
+    font-family: 'KozGoPro-Bold';
+}
+
+.step-button-special {
+    width: -webkit-fill-available;
+    text-align: right;
+}
+
+.step-title {
+    border-right: 2px solid grey;
+    height: 200px;
+}
+
+.step-title h1 {
+    margin: auto;
+    font-family: 'heavy';
+    letter-spacing: 13px;
+}
+
+.btn-verify {
+    color: #000000;
+    background: #0affff;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s linear;
+    font-family: 'Heavy';
+}
+
+.btn-twitter {
+    background: #fff;
+    padding: 5px 30px;
+    letter-spacing: 1px;
+    color: #0affff;
+    font-family: 'Heavy';
+    transition: all 0.5s linear;
+}
+
+.btn-twitter i {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.btn-discord {
+    background: #fff;
+    padding: 10px 20px;
+    color: #0affff;
+    font-family: 'Heavy';
+    transition: all 0.5s linear;
+}
+
+.btn-mail {
+    color: #000000;
+    padding: 10px;
+    background: #0affff;
+    font-family: 'Heavy';
+    transition: all 0.5s linear;
+    float: right;
+}
+
+.blue-color {
+    color: #0affff;
+}
+
+.social-btn {
+    margin-left: 110px;
+}
+
+.m-b {
+    margin-bottom: 50px !important;
+}
+
+.step2-2 {
+    margin-bottom: 50px !important;
+}
+
+.w-120 {
+    width: 120%;
+}
+
+.m-l-25 {
+    margin-left: 25px;
+}
+
+.tickIcon {
+    font-size: 100px;
+    color: #05ffff
+}
+
+.discord {
+    font-size: 26px;
+    padding: 5px 4px;
+}
+
+.twitter {
+    font-size: 28px;
+    padding: 4px 6px;
+}
+
+.verify-social {
+    transition: all 0.5s linear;
+    background-color: #0affff;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 0 3px;
+}
+
+.verify-social:hover,
+.verify-social:focus,
+.verify-social.focus,
+.verify-social:active,
+.verify-social.active {
+    color: #fff;
+    background-image: none;
+    background-color: #05ffff;
+}
+
+.input-info {
+    margin-right: 50px;
+    height: 50px;
+}
+
+.m-t-100 {
+    margin-top: 100px;
+}
+
+.url-arrow{
+    width: 30px;
+    height: 30px;
+}
+.retweet-url {
+    word-break: break-all;
+}
+
+@media (max-width: 1024px) {
+    .intro h1 {
+        font-size: 36px;
+    }
+
+    .verify-container {
+        max-width: 760px;
+    }
+
+    #verify h1 {
+        font-size: 23px;
+    }
+
+    .step-content h4 {
+        letter-spacing: 5px;
+        font-size: 23px;
+    }
+
+    .step-content p {
+        font-size: 17px;
+    }
+
+    .btn-twitter {
+        padding: 5px 18px;
+        font-size: 15px;
+    }
+
+    .btn-twitter i {
+        font-size: 28px;
+    }
+
+    .btn-verify {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+
+    .btn-discord {
+        font-size: 15px;
+    }
+
+    .step-content input {
+        margin: 10px 15px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #verify {
+        padding: 100px 40px;
+    }
+
+    .verify-container {
+        max-width: 600px;
+    }
+
+    .step1,
+    .step2,
+    .step3,
+    .step4 {
+        margin-bottom: 0;
+    }
+
+    .step-title {
+        border: none;
+    }
+
+    .sign_up {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .verify-container {
+        width: 100%;
+    }
+
+    .d-flex {
+        display: block !important;
+    }
+
+    .step-title {
+        height: 100%;
+        margin: 50px 0;
+    }
+
+    .step-content h4 {
+        text-align: center;
+    }
+
+    .step-button {
+        margin: 0;
+    }
+
+    .social-btn {
+        margin-left: 0;
+    }
+
+    .step-button-special {
+        text-align: center;
+    }
+
+    .m-b {
+        margin-bottom: 20px !important;
+    }
+
+    .btn-verify,
+    .btn-discord {
+        margin: 20px 0;
+    }
+
+    .btn-twitter {
+        margin: 20px 0;
+        display: inline-flex !important;
+    }
+
+    .step2-2 {
+        margin-bottom: 40px !important;
+    }
+
+    .w-120 {
+        width: 100%;
+    }
+
+    .intro h1 {
+        font-size: 24px;
+    }
+
+    .balance {
+        width: 51%;
+    }
+
+    .m-t-100 {
+        margin-top: 0;
+    }
+
+    .sign_up {
+        margin-top: 70px;
+    }
+
+    .twitter,
+    .discord {
+        display: inline-block;
+    }
+
+    .blue-address {
+        margin: auto;
+    }
+}
+
+@media (max-width:320px) {
+    .step-content h4 {
+        font-size: 15px;
+        line-height: 32px;
+    }
+
+    .url {
+        letter-spacing: normal;
+    }
+
+    .retweet-url {
+        letter-spacing: normal;
+    }
+
+    .m-l-25 {
+        margin-left: 0;
+    }
+
+    .step-content p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
